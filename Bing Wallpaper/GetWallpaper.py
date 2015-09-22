@@ -43,7 +43,7 @@ def main():
     data = json.loads(output)
 
     #Form image url from json
-    output_url = "http://www.bing.com/" + data["images"][0]["url"]
+    output_url = data["images"][0]["url"]
 
     #Form 1920x1200 image from above url
     output_url_highres = output_url.replace("1080", "1200")
@@ -51,7 +51,7 @@ def main():
 
     #If higher resolution is preferred(default)
     if getHighRes == 1:
-        
+
         #Use try block to catch any failure in getting the high res image
         try:
             process_url(output_url_highres)

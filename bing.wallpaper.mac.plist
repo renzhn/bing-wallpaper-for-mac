@@ -6,7 +6,7 @@
    <string>bing.wallpaper.mac</string>
    <key>ProgramArguments</key>
    <array>
-      <string>/Users/username/Applications/Bing Wallpaper/CheckBingStatus.app/Contents/MacOS/Application Stub</string>
+      <string>/Users/renzhn/Applications/Bing Wallpaper/CheckBingStatus.app/Contents/MacOS/Application Stub</string>
    </array>
    <!-- This runs the script on startup -->
    <!--
